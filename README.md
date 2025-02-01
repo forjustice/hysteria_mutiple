@@ -38,6 +38,7 @@ docker run -itd --restart=always  --network=host \
  -e domain=hy2.example.com  \
  -e nodeID=1 \
  -e listen=127.0.0.1:7654 \
-hy:latest
+ghcr.io/forjustice/hysteria:latest
 ```
----
+### Docker仓库
+docker pull ghcr.io/forjustice/hysteria:latest
